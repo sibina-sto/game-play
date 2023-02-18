@@ -3,12 +3,11 @@ import { useState} from "react";
 
 import Header from "./compontents/Header";
 import WelcomeWorld from "./compontents/WelcomeWorld";
-// import Login from "./compontents/Login";
-// import Register from "./compontents/Register";
-// import EditGame from "./compontents/EditGame";
-// import GameDetails from "./compontents/GameDetails";
+import Login from "./compontents/Login";
+import Register from "./compontents/Register";
+import EditGame from "./compontents/EditGame";
+import GameDetails from "./compontents/GameDetails";
 import GameCatalog from "./compontents/GameCatalog";
-import CreateGame from "./compontents/CreateGame";
 
 function App() {
   const [page, setPage] = useState('/home');
@@ -16,7 +15,9 @@ function App() {
   const routes = {
     '/home': <WelcomeWorld />,
     '/games': <GameCatalog />,
-    '/create-game': <CreateGame />,
+    '/login': <CreateGame />
+    '/':
+    
   }
 
   const navigationChangeHandler = (path) => {
