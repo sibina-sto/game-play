@@ -2,7 +2,7 @@ import { useState} from "react";
 
 import Header from "./compontents/Header";
 import WelcomeWorld from "./compontents/WelcomeWorld";
-import GameCatalog from "./compontents/GameCatalog";
+import GameCatalog from "./compontents/GameCatalog/GameCatalog";
 import CreateGame from "./compontents/CreateGame";
 import Login from "./compontents/Login";
 import Register from "./compontents/Register";
