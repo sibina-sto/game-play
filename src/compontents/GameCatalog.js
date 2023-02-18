@@ -1,4 +1,10 @@
+import { useEffect} from 'react';
+
 const GameCatalog = () => {
+    useEffect(() => {
+        fetch('https://localhost:3030/data/games?sortBy=_createdOn%20desc')
+    },[]);
+        
     return (
     
         <section id="catalog-page">
