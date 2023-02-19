@@ -3,7 +3,6 @@ import { useEffect, useState} from 'react';
 import GameCard from './GameCard';
 
 const GameCatalog = () => {
-
     const [games, setGames] = useState([])
     useEffect(() => {
         fetch('http://localhost:3030/data/games?sortBy=_createdOn%20desc')
