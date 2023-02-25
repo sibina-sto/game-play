@@ -1,7 +1,7 @@
 import { useState} from "react";
 
 
-import Header from "./compontents/components";
+importimport Header from "./compontents/components";
 import WelcomeWorld from "./compontents/WelcomeWorld";
 // import Login from "./compontents/Login";
 // import Register from "./compontents/Register";
@@ -10,7 +10,8 @@ import WelcomeWorld from "./compontents/WelcomeWorld";
 import GameCatalog from "./compontents/GameCatalog";
 import CreateGame from "./compontents/CreateGame";
 
-import
+
+
 function App() {
   const [page, setPage] = useState('/home');
 

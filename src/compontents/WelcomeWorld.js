@@ -1,14 +1,4 @@
-import { useState, useEffect } from 'react';
-
-import * as gameService from '../services/gameService';
-
 const WelcomeWorld = () => {
-    const [games, setGames] = useState([]);
-    
-    useEffect(() => {
-        gameService
-    }, []);
-    
     return (
         <section id="welcome-world">
             <div className="welcome-message">
